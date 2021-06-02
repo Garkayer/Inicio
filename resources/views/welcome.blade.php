@@ -42,9 +42,11 @@
                         <li class="nav-item">
                             <a class="nav-link"  href="/Aprende">Aprende</a>
                         </li>
-                        <class="nav-item">
+
+                        <li class="nav-item">
                             <a class="nav-link" @click="abrirForm('chat')" href="#">Chat</a>
-                        </class=>
+                        </li>
+
                     </ul>
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">

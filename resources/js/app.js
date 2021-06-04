@@ -12,6 +12,13 @@ window.generarIdUnicoDesdeFecha=()=>{
     let fecha = new Date();//03/02/2021
     return Math.floor(fecha.getTime()/1000).toString(16);
 };
+if( !Notification ){
+    alert("Tu navegador NO soporta notificaciones");
+}
+window.permitirNotificacion = "default";
+Notification.requestPermission().then(result=>{
+    window.permitirNotificacion = result;
+});
 import vSelect from 'vue-select'
 import 'vue-select/dist/vue-select.css';
 window.socket = io.connect('http://localhost:3001',{'forceNew':true});

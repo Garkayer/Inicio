@@ -28,10 +28,15 @@
     <div class="card-body">
       <h5 class="card-title">APRENDE A RECICLAR</h5>
       <a href="educativo" class="btn btn-dark">IR AL ENLACE</a>
+
 </center>
+
+
+
     </div>
   </div>
 
 
+  <chat-component v-bind:form="forms" ref="chat" v-show="forms['chat'].mostrar"></chat-component>
 
 @endsection

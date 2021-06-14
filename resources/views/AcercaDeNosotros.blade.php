@@ -3,38 +3,55 @@
 
 @section('contenidos')
 
+<section class="container-fluid content py-5">
+        <div class="row justify-content-center">
+            <!-- Post -->
+            <div class="col-12 col-md-7 text-center">
+                <h1>Acerca de nosotros</h1>
+                <hr>
+                <img src="img/Codex.png" alt="Post" class="img-fluid">
+
+                <p class="text-left mt-3 post-txt">
+                    <span>MISION</span>
+                    
+                </p>
+                <p class="text-left">
+                Desarrollar un trabajo de calidad, ayudar con un problema social y natural.
+                </p>
                 
                 
-            <p> <h5>MISION</h5>
-            Desarrollar un trabajo de calidad, ayudar con un problema social y natural.
-            <br>
-                <br>
-                <h5>VISION</h5>
+                <p class="text-left mt-3 post-txt">
+                    <span>VISION</span>
+                  
+                </p>
+                <p class="text-left">
                 Ser conocidos como un excelente equipo, en donde prime el respeto la amistad y responsabilidad.
-                 <br>
-            </>
+                </p>
 
-            </div>
+                  
+                <p class="text-left mt-3 post-txt">
+                    <span>VALORES</span>
+                    
+                </p>
+                <p class="text-left">
+               Confianza, Lealtad, Empatia, Dignidad, Honestidad.
+                </p>
+           
+   
+                <p class="text-left mt-3 post-txt">
+                    <span>PRINCIPIOS</span>
+                   
+                </p>
+                <p class="text-left">
+                Metas y objetivos claros, Reglas claras y definidas, Funciones y roles personales.
+                </p>
+           
 
-            <div class="row align-items-center" class="valores">
-                <h5>VALORES</h5>
-            <ul> 
-                <li>Confianza, Lealtad, Empatia, Dignidad, Honestidad.
-                </li>
-            </ul>
+          
             </div>
 
          
 
-            <div class="col-12 align-self-center" class="principios">
-                <h5>PRINCIPIOS</h5>
-            <ul> 
-                <li>Metas y objetivos claros, Reglas claras y definidas, Funciones y roles personales.
-             </li>
-            </ul>
-            </div>
-
-        
 
     
     

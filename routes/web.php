@@ -21,6 +21,9 @@
 
         Route::view('/educativo', 'educativo')->name('educativo');
 
+        Route::view('/TiposDeReciclaje', 'TiposDeReciclaje')->name('TiposDeReciclaje');
+
+
 
 Auth::routes();
 

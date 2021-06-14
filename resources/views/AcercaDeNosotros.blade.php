@@ -12,11 +12,11 @@
                 <h5>VISION</h5>
                 Ser conocidos como un excelente equipo, en donde prime el respeto la amistad y responsabilidad.
                  <br>
-            </p>
+            </>
 
             </div>
 
-            <div class="col-12 align-self-center" class="valores">
+            <div class="row align-items-center" class="valores">
                 <h5>VALORES</h5>
             <ul> 
                 <li>Confianza, Lealtad, Empatia, Dignidad, Honestidad.
@@ -26,7 +26,7 @@
 
          
 
-            <div class="col-12 align-self-center" class="valores">
+            <div class="col-12 align-self-center" class="principios">
                 <h5>PRINCIPIOS</h5>
             <ul> 
                 <li>Metas y objetivos claros, Reglas claras y definidas, Funciones y roles personales.

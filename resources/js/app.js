@@ -40,6 +40,7 @@ Vue.component('categorias-component', require('./components/categorias.vue').def
 Vue.component('productos-component', require('./components/productos.vue').default);
 Vue.component('chat-component', require('./components/chat.vue').default);
 Vue.component('v-select-categorias', vSelect)
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -62,34 +63,10 @@ const app = new Vue({
             this.forms[form].mostrar=true;
             this.$refs[form].obtenerDatos();
         },
+
         abrirBd(){
-            let indexDb = indexedDB.open('db_sistema_facturacion',1);
-            indexDb.onupgradeneeded=event=>{
-                let req=event.target.result,
-                    tblproductos = req.createObjectStore('tblproductos',{keyPath:'idProducto'}),
-                    tblcategorias = req.createObjectStore('tblcategorias',{keyPath:'idCategoria'}),
-                    tblclientes = req.createObjectStore('tblclientes',{keyPath:'idCliente'}),
-                    tblproveedores = req.createObjectStore('tblproveedores',{keyPath:'idProveedor'});
-
-                tblproductos.createIndex('idProducto','idProducto',{unique:true});
-                tblproductos.createIndex('codigo','codigo',{unique:false});
-                tblproductos.createIndex('id','id',{unique:false});
-                
-                tblcategorias.createIndex('idCategoria','idCategoria',{unique:true});
-                tblcategorias.createIndex('codigo','codigo',{unique:false});
-
-                tblclientes.createIndex('idCliente','idCliente',{unique:true});
-                tblclientes.createIndex('codigo','codigo',{unique:false});
-
-                tblproveedores.createIndex('idProveedor','idProveedor',{unique:true});
-                tblproveedores.createIndex('nrc','nrc',{unique:false});
-            };
-            indexDb.onsuccess = evt=>{
-                db=evt.target.result;
-            };
-            indexDb.onerror=e=>{
-                console.log("Error al conectar a la BD", e);
-            };
+            
+            
         }
     },
     created(){

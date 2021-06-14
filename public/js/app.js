@@ -54966,60 +54966,7 @@ var app = new Vue({
       this.forms[form].mostrar = true;
       this.$refs[form].obtenerDatos();
     },
-    abrirBd: function abrirBd() {
-      var indexDb = indexedDB.open('db_sistema_facturacion', 1);
-
-      indexDb.onupgradeneeded = function (event) {
-        var req = event.target.result,
-            tblproductos = req.createObjectStore('tblproductos', {
-          keyPath: 'idProducto'
-        }),
-            tblcategorias = req.createObjectStore('tblcategorias', {
-          keyPath: 'idCategoria'
-        }),
-            tblclientes = req.createObjectStore('tblclientes', {
-          keyPath: 'idCliente'
-        }),
-            tblproveedores = req.createObjectStore('tblproveedores', {
-          keyPath: 'idProveedor'
-        });
-        tblproductos.createIndex('idProducto', 'idProducto', {
-          unique: true
-        });
-        tblproductos.createIndex('codigo', 'codigo', {
-          unique: false
-        });
-        tblproductos.createIndex('id', 'id', {
-          unique: false
-        });
-        tblcategorias.createIndex('idCategoria', 'idCategoria', {
-          unique: true
-        });
-        tblcategorias.createIndex('codigo', 'codigo', {
-          unique: false
-        });
-        tblclientes.createIndex('idCliente', 'idCliente', {
-          unique: true
-        });
-        tblclientes.createIndex('codigo', 'codigo', {
-          unique: false
-        });
-        tblproveedores.createIndex('idProveedor', 'idProveedor', {
-          unique: true
-        });
-        tblproveedores.createIndex('nrc', 'nrc', {
-          unique: false
-        });
-      };
-
-      indexDb.onsuccess = function (evt) {
-        db = evt.target.result;
-      };
-
-      indexDb.onerror = function (e) {
-        console.log("Error al conectar a la BD", e);
-      };
-    }
+    abrirBd: function abrirBd() {}
   },
   created: function created() {
     this.abrirBd();

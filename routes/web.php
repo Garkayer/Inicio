@@ -23,6 +23,15 @@
 
         Route::view('/TiposDeReciclaje', 'TiposDeReciclaje')->name('TiposDeReciclaje');
 
+        Route::view('/Beneficios', 'Beneficios')->name('Beneficios');
+
+        Route::view('/Contaminacion', 'Contaminacion')->name('Contaminacion');
+
+        Route::view('/Cuidar', 'Cuidar')->name('Cuidar');
+
+
+
+
 
 
 Auth::routes();

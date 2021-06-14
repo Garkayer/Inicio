@@ -22,7 +22,7 @@ const http = require('http').Server(),
         privateKey:'GEJLIqRPJdzZBd1qWpANmQAWbEZl9C5A0vQGu_fdpgk'
     };
 var pushSubscription; //Esta subscripcion debemos almacenarla en una BD;
-webpush.setVapidDetails("mailto:luishernandez@ugb.edu.sv", vapidKeys.publicKey, vapidKeys.privateKey);
+webpush.setVapidDetails("mailto:USIS024219@ugb.edu.sv", vapidKeys.publicKey, vapidKeys.privateKey);
 
 http.listen(port,()=>{
     console.log("Ejecutanse nuestra app con socket.io en node por el puerto", port);

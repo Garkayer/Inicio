@@ -7,9 +7,9 @@
         <div class="row justify-content-center">
             <!-- Post -->
             <div class="col-12 col-md-7 text-center">
-                <h1>Tipos de reciclaje</h1>
+                <h1>Reciclaje</h1>
                 <hr>
-                <img src="img/Plasticos.jpg" alt="Post Javascript" class="img-fluid">
+                <img src="img/Plasticos.jpg" alt="Post" class="img-fluid">
 
                 <p class="text-left mt-3 post-txt">
                     <span>Tipos de reciclaje</span>

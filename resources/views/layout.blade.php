@@ -37,7 +37,7 @@
                         </li>
                             
                         <li class="nav-item">
-                            <a class="nav-link"  href="/AcercaDeNosotros">Acerda de nosotros</a>
+                            <a class="nav-link"  href="/AcercaDeNosotros">Acerca de nosotros</a>
                         </li>
 
                         <li class="nav-item">

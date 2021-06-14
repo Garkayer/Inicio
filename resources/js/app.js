@@ -33,11 +33,7 @@ window.socket = io.connect('http://localhost:3001',{'forceNew':true});
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('clientes-component', require('./components/clientes.vue').default);
-Vue.component('proveedores-component', require('./components/proveedores.vue').default);
 Vue.component('mensajes-component', require('./components/mensajes.vue').default);
-Vue.component('categorias-component', require('./components/categorias.vue').default);
-Vue.component('productos-component', require('./components/productos.vue').default);
 Vue.component('chat-component', require('./components/chat.vue').default);
 Vue.component('v-select-categorias', vSelect)
 
@@ -51,10 +47,6 @@ const app = new Vue({
     el: '#app',
     data:{
         forms:{
-            'categoria':{mostrar:false},
-            'producto':{mostrar:false},
-            'cliente':{mostrar:false},
-            'proveedor':{mostrar:false},
             'chat':{mostrar:false},
         }
     },

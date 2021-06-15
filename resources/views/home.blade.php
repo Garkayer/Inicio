@@ -1,13 +1,25 @@
 @extends('layouts.app')
 
 @section('content')
-<header class="container-fluid">
-             <img src="{{asset('img/Codex.png')}}" class="img-fluid" width="200" alt="fgf">
-             </div>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">{{ __('Panel administrativo') }}</div>
 
-             <div class="col-12 align-self-center text-center">
-            <h3>¿Quienes somos?</h3>
-            <p>Somos una empresa que ayudara a promover el reciclaje, aprenderan de distintas maneras a reciclar y las empresas de reciclaje aqui en El Salvador. </p>
+                <div class="card-body">
+                    @if (session('status'))
+                        <div class="alert alert-success" role="alert">
+                            {{ session('status') }}
+                        </div>
+                    @endif
+
+                    {{ __('Pagina principal, logueado') }}
+                    Hola mundo
+                </div>
             </div>
+        </div>
+    </div>
+</div>
 
 @endsection

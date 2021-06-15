@@ -2,17 +2,26 @@
 
 @section('contenidos')
 
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">{{ __('Panel administrativo') }}</div>
 
-       <!-- contenido o codigo de home-->
+                <div class="card-body">
+                    @if (session('status'))
+                        <div class="alert alert-success" role="alert">
+                            {{ session('status') }}
+                        </div>
+                    @endif
 
-             <img src="{{asset('img/Codex.png')}}" class="img-fluid" width="200" alt="fgf">
-             </div>
-
-             <div class="col-12 align-self-center text-center">
-            <h3>¿Quienes somos?</h3>
-            <p>Somos una empresa que ayudara a promover el reciclaje, aprenderan de distintas maneras a reciclar y las empresas de reciclaje aqui en El Salvador. </p>
+                    {{ __('Pagina principal, logueado') }}
+                    Hola mundo
+                </div>
             </div>
-
+        </div>
+    </div>
+</div>
          
 
 @endsection

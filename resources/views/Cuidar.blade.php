@@ -7,12 +7,12 @@
         <div class="row justify-content-center">
             <!-- Post -->
             <div class="col-12 col-md-7 text-center">
-                <h1>Contaminaciòn ambiental</h1>
+                <h1>Cuidar el medio ambiente</h1>
                 <hr>
                 <img src="img/Ciudar.jpg" alt="Post" class="img-fluid">
             
                 <p>Hoy en día se llevan a cabo numerosas campañas publicitarias para fomentar el cuidado del medio ambiente y son muchas las organizaciones que luchan continuamente para crear conciencia sobre la necesidad de proteger nuestro planeta. Por este motivo, hoy te traigo algunas recomendaciones sobre cómo podemos <strong>cuidar del medio ambiente</strong> en nuestro día a día.</p>
-<div id="toc_container" class="no_bullets"><p class="toc_title">Contenido</p><ul class="toc_list"><li><a href="#Acciones_para_cuidar_del_medio_ambiente"><span class="toc_number toc_depth_1"></span> Acciones para cuidar del medio ambiente</a><ul><li><a href="#Apaga_las_luces_al_salir"><span class="toc_number toc_depth_2"></span> Apaga las luces al salir</a></li><li><a href="#Gasta_solo_el_agua_que_sea_necesaria"><span class="toc_number toc_depth_2"></span> Gasta sólo el agua que sea necesaria</a></li><li><a href="#Utiliza_las_dos_caras_del_papel"><span class="toc_number toc_depth_2"></span> Utiliza las dos caras del papel</a></li><li><a href="#Recicla_los_residuos_que_generes"><span class="toc_number toc_depth_2"></span> Recicla los residuos que generes</a></li></ul></li></ul></div>
+
 <h2><span id="Acciones_para_cuidar_del_medio_ambiente">Acciones para cuidar del medio ambiente</span></h2>
 <p>A continuación encontrarás algunos consejos para empezar a cuidar del medio ambiente. Ponerlos en práctica no requiere un gran esfuerzo, únicamente se necesita estar comprometido con el planeta y estar dispuesto a cambiar aquellos hábitos de tu rutina diaria que no son respetuosos con el medio ambiente. Te aseguro que de esta forma estarás aportando tu granito de arena para ayudar a preservar nuestro planeta.</p>
 <h3><span id="Apaga_las_luces_al_salir">Apaga las luces al salir</span></h3>

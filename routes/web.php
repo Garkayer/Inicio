@@ -11,7 +11,7 @@
 | contains the "web" middleware group. Now create something great!
 |
         */
-        Route::view('/', 'home1')->name('home1');
+        Route::view('/', 'home')->name('home');
 
         Route::view('/Aprende', 'Aprende')->name('Aprende');
 
@@ -36,4 +36,4 @@
 
 Auth::routes();
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home1');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

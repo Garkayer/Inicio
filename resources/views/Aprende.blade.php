@@ -62,7 +62,7 @@
    				<div class="card border-0 transform-on-hover">
    					<a class="lightbox" href="img/Ben.jpg"><img src="img/Ben.jpg" class="card-img-top"></a>
    					<div class="card-body">
-   						<h6>Ciuda el medio ambiente</h6>
+   						<h6>Cuida el medio ambiente</h6>
    						<a href="Cuidar" class="btn btn-primary center">Ir al link</a>
    					</div>
    				</div>

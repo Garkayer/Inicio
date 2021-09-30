@@ -29,6 +29,29 @@
 
         Route::view('/Cuidar', 'Cuidar')->name('Cuidar');
 
+        Route::view('/Apr', 'Apr')->name('Apr');
+
+        Route::view('/ChatBot', 'ChatBot')->name('ChatBot');
+
+
+
+      
+        
+
+
+
+
+
+
+        
+
+
+
+
+
+        
+
+
 
 
 

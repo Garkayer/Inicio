@@ -1,3 +1,4 @@
+
 <template>
     <div class="container">
         <vue-resizable :width="500" :drag-selector="toolbar">
@@ -16,6 +17,10 @@
                             </div>
                         </div>
                     </div>
+
+
+
+
                     <div class="card-body text-dark">
                         <div class="row p-2">
                             <div class="col-sm">
@@ -162,6 +167,7 @@
                 };
                 socket.emit('inicio_envio_archivos', { 'Name' : this.flName, 'Size' : this.file.size });
             }
+            
         },
         created(){
             this.FReader = new FileReader();
@@ -181,6 +187,7 @@
             });
         },
     }
+    
 </script>
 <style>
     #ltsMensajes{
@@ -190,3 +197,5 @@
     }
     
 </style>
+
+

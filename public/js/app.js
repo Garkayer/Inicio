@@ -2032,6 +2032,11 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
+//
 //https://github.com/nikitasnv/vue-resizable
 Vue.component('vue-resizable', VueResizable["default"]);
 /* harmony default export */ __webpack_exports__["default"] = ({

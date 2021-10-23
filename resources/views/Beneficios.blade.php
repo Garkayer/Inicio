@@ -19,7 +19,7 @@
                 Cuando hablamos de reciclaje, hablamos de preservar el medio ambiente, el entorno en el que vivimos. Es importante no pensar solamente en nosotros, sino en el mañana, en el futuro de las generaciones que vendrán. Si descuidamos el planeta y lo destruimos, ¿qué quedará para nuestros hijos? Hay que pensar en el futuro de la especie humana, en dejar un mundo mejor para que ellos puedan cuidarlo, conservarlo y sobre todo amarlo.
                 El reciclaje es una herramienta útil producto de la conciencia responsable, la cual nos proporciona una idea de cómo contribuir y aportar ese granito de arena a la construcción de un mundo mejor, de un mundo donde se respete el medio ambiente y se ayude a preservarlo.
                 </p>
-                <p class="text-left post-txt"><i>Listado de beneficios de reciclar:</i></p>
+                <p class="text-left post-txt"><em>Listado de beneficios de reciclar:</em></p>
             </div>
 
             <ul>

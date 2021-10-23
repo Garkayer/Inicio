@@ -3,7 +3,7 @@
 
     
 @section('contenidos')
-<iframe
+<iframe title="ChatBot"
     allow="microphone;"
     width="350"
     height="430"

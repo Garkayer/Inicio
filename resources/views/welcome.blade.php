@@ -72,7 +72,7 @@
 </head>
 <body>
 	<a @Click="abrirForm('chat')" href="#" class="btn-wsp">
-	    <i class="fa fa-whatsapp icono"></i>
+	    <em class="fa fa-whatsapp icono"></em>
 	</a>
 </body>
 </html>

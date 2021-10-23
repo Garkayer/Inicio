@@ -21,7 +21,7 @@
                 Para todo ello, existen diferentes tipos de reciclaje que vamos a ver a continuación.
                 </p>
 
-                <h3>Reciclaje Mecàico</h3>
+                <h3>Reciclaje Mecànico</h3>
                 <p>Se refiere a todas las técnicas y procesos que incluyan el trabajo manual o ayudado por máquinas. Este tipo de reciclaje es utilizado mucho en la clasificación de residuos mezclados y en el reciclaje del plástico.</p>
                 <h3>Reciclaje químico</h3>
 <p>Incluye técnicas y procedimientos que implican el cambio en la estructura química del material. Su finalidad es la descomposición del polímero para la obtención de monómeros. Este tipo de reciclaje es utilizado mediante disoluciones, hidrólisis, hidrogenación;</p>
@@ -37,14 +37,14 @@
 <h3>Reciclaje de plástico</h3>
 <p>El plástico es sin duda uno de los residuos que más tardan en degradarse, llegando a tardar la naturaleza hasta cientos de años en degradarlos. El reciclaje de plástico se puede realizar de dos maneras:</p>
 
-<li>Mecánica: Consiste en recoger el plástico, limpiarlo, molerlo o trocearlo, lavarlo de nuevo y enfardarlo.</li>
-<li>Químico: Consiste en degradar el plástico para conseguir moléculas simples mediante métodos como:
+<ul>Mecánica: Consiste en recoger el plástico, limpiarlo, molerlo o trocearlo, lavarlo de nuevo y enfardarlo.</ul>
+<ul>Químico: Consiste en degradar el plástico para conseguir moléculas simples mediante métodos como:
 
-<li>Pirólisis: Altas temperaturas en ausencia de oxígeno.</li>
-<li>Hidrogenación: Altas temperaturas en presencia de hidrógeno.</li>
-<li>Gasificación: Convierte el plástico en combustible en presencia de oxígeno o hidrógeno.</li>
-<li>Craqueo: Altas temperaturas y catalizador.</li>
-</li>
+<ul>Pirólisis: Altas temperaturas en ausencia de oxígeno.</ul>
+<ul>Hidrogenación: Altas temperaturas en presencia de hidrógeno.</ul>
+<ul>Gasificación: Convierte el plástico en combustible en presencia de oxígeno o hidrógeno.</ul>
+<ul>Craqueo: Altas temperaturas y catalizador.</ul>
+</ul>
 </ul>
 <h3>Reciclaje de vidrio</h3>
 <p>Una de las principales ventajas del vidrio es que puede ser reciclado y reutilizado tantas veces como sea necesario dado que, no pierde características ni propiedades.</p>

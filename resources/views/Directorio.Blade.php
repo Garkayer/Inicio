@@ -17,7 +17,7 @@
 <body>
     <center>
     <h1>Directorio de empresas:</h1>
-    <iframe src="Empresas.pdf"></iframe>
+    <iframe title="Empresas" src="Empresas.pdf"></iframe>
 </center>
 </body>
 

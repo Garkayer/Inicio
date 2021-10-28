@@ -44,10 +44,10 @@ class VerifyEmail extends Notification
         }
 
         return (new MailMessage)
-            ->subject(Lang::get('Verify Email Address'))
-            ->line(Lang::get('Please click the button below to verify your email address.'))
-            ->action(Lang::get('Verify Email Address'), $verificationUrl)
-            ->line(Lang::get('If you did not create an account, no further action is required.'));
+            ->subject(Lang::get('Verififque su correo electrónico'))
+            ->line(Lang::get('Porfavor dele click a este boton para confirmar su correo electrónico.'))
+            ->action(Lang::get('Verificar correo eléctronico'), $verificationUrl)
+            ->line(Lang::get('Si no creo esta cuenta, no es necesario que haga nada.'));
     }
 
     /**

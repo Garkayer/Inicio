@@ -29,9 +29,11 @@
 
         Route::view('/Cuidar', 'Cuidar')->name('Cuidar');
 
-        Route::view('/Apr', 'Apr')->name('Apr');
+        Route::view('/Contacto', 'Contacto')->name('Contacto');
 
         Route::view('/ChatBot', 'ChatBot')->name('ChatBot');
+
+
 
 
 
@@ -61,3 +63,5 @@ Auth::routes(['verify' => true]);
 
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+

@@ -54,7 +54,11 @@
                             <a class="nav-link"  href="/ChatBot">ChatBot</a>
                             
                         </li>
-                    
+
+                        <li class="nav-item">
+                            <a class="nav-link"  href="/Contacto">Contacto</a>
+                            
+                        </li>
              
              
 
